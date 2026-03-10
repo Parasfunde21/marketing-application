@@ -4,6 +4,7 @@ import { MediaGenerator } from '../components/media/MediaGenerator';
 import { SchedulerPanel } from '../components/scheduler/SchedulerPanel';
 import { AnalyticsCards } from '../components/analytics/AnalyticsCards';
 import { useRealtimeAnalytics } from '../hooks/useRealtimeAnalytics';
+
 export function App() {
   const engagementData = useRealtimeAnalytics();
 
