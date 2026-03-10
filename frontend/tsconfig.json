@@ -16,3 +16,14 @@
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@lib/*": ["lib/*"],
+      "@pages/*": ["pages/*"]
+    }
+  }
+}
